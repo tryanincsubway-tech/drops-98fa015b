@@ -89,19 +89,13 @@ font-family:-apple-system,Arial,sans-serif">
 </div>
 <script>
 (function(){
-  var KEYG="eyedrops:gate:v1", HASH="91dc1081fd2546514348da5b25c60c91b95e284f10990511cd3c602e72466fdb";
+  var KEYG="eyedrops:gate:v1", PW;
+  try{ PW=atob("dHJ5YW4="); }catch(e){ PW="tryan"; }
   function unlock(){var g=document.getElementById('gate'); if(g) g.style.display='none';}
-  async function sha(s){
-    if(window.crypto&&crypto.subtle){
-      var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));
-      return [].slice.call(new Uint8Array(b)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');
-    } return null;
-  }
   if(localStorage.getItem(KEYG)==='1'){unlock();return;}
-  async function tryit(){
+  function tryit(){
     var v=(document.getElementById('gpw').value||'').trim().toLowerCase();
-    var h=await sha(v);
-    if(h===HASH || v===atob('dHJ5YW4=')){localStorage.setItem(KEYG,'1');unlock();}
+    if(v===PW){localStorage.setItem(KEYG,'1');unlock();}
     else{document.getElementById('gerr').textContent='Not quite — try again.';}
   }
   document.getElementById('gbtn').onclick=tryit;
