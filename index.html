@@ -1,5 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Eye Drops"><meta name="theme-color" content="#0f172a">
@@ -141,8 +143,8 @@ font-family:-apple-system,Arial,sans-serif">
 <div id="body"></div>
 
 <div class="foot">Times are suggested spacing (10 AM–10 PM), not the doctor's exact times.
-Wait 3–5 min between drops. Shake the pink steroid. Post-op "Day 1" = day after surgery.<br>
-Transcription aid — confirm anything unclear with your eye surgeon's office.</div>
+Wait 3–5 min between drops. Shake the pink steroid. "Day 1" = the surgery day itself.<br>
+Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15b</span></div>
 </div>
 
 <div id="report"></div>
@@ -176,6 +178,11 @@ function fmtAP(hhmm){var p=hhmm.split(':');var h=+p[0],m=+p[1];var ap=h<12?'AM':
 function startKey(date){return KEY+'start:'+date;}
 function getStart(date){return localStorage.getItem(startKey(date))||'10:00';}
 function setStart(date,v){if(v&&v!=='10:00')localStorage.setItem(startKey(date),v);else localStorage.removeItem(startKey(date));}
+function updateProgress(){var day=SCHEDULE[cur];var total=0,doneC=0;
+  day.slots.forEach(function(s){s.meds.forEach(function(md){md.eyes.forEach(function(e){total++;if(get(e.id))doneC++;});});});
+  var pt=document.getElementById('dprogtxt');if(pt)pt.textContent=doneC+' of '+total;
+  var pf=document.getElementById('dprogfill');if(pf)pf.style.width=(total?Math.round(doneC/total*100):0)+'%';
+  var ag=document.getElementById('allgood');if(ag)ag.classList.toggle('show',total>0&&doneC===total);}
 function eyeSVG(){return '<svg class="eyesvg" viewBox="0 0 60 40"><path d="M3 20 C15 4 45 4 57 20 C45 36 15 36 3 20 Z" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="30" cy="20" r="8" fill="currentColor"/></svg>';}
 function startIndex(){const ti=todayISO();let i=SCHEDULE.findIndex(d=>d.date===ti);if(i<0)i=SCHEDULE.findIndex(d=>d.date>=ti);return i<0?0:i;}
 
@@ -242,9 +249,14 @@ function render(){
   document.querySelectorAll('.tedit').forEach(function(l){
     var inp=l.querySelector('.ti');
     l.addEventListener('click',function(e){e.stopPropagation(); try{ if(inp.showPicker) inp.showPicker(); else inp.focus(); }catch(_){inp.focus();} });
-    // save quietly as the wheels move — do NOT re-render (that was yanking the picker out mid-spin)
-    inp.addEventListener('change',function(e){e.stopPropagation(); var b=l.closest('.eyebtn'); if(inp.value) setv(b.dataset.id, inp.value);});
-    // only refresh the screen once you close the picker (press Done / tap away)
+    // save + update ONLY this button in place as the wheels move — never rebuild the list
+    // (rebuilding is what yanked the picker out mid-spin), so you can spin hour then minute freely
+    inp.addEventListener('change',function(e){e.stopPropagation(); var b=l.closest('.eyebtn'); if(!inp.value)return;
+      setv(b.dataset.id, inp.value); b.classList.add('done');
+      var st=b.querySelector('.eyestate'); var late=isLate(inp.value,b.dataset.slot);
+      if(st) st.innerHTML='😊 '+fmtClock(inp.value)+(late?' <span class="latetag">⏰ late</span>':'');
+      updateProgress();});
+    // re-sort (done sinks to bottom) only once the picker closes — safe, picker is gone
     inp.addEventListener('blur',function(e){ render(); checkNag(true); });
   });
   // per-day start time
