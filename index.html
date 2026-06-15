@@ -29,7 +29,7 @@ font-weight:700;text-align:center;text-decoration:none;cursor:pointer;white-spac
 .dprogbar{flex:1;height:8px;background:#1e293b;border-radius:6px;overflow:hidden}
 .dprogfill{height:100%;background:#22c55e;width:0;transition:width .25s}
 .nag{margin:11px 12px 0;background:#b45309;color:#fff;border-radius:12px;padding:11px 14px;font-size:13px;font-weight:700;display:none}.nag.show{display:block}
-.dosetimer{display:none;margin:11px 12px 0;border-radius:14px;padding:13px 14px 15px;text-align:center;font-weight:800;font-size:15px}
+.dosetimer{display:none;margin:0 0 10px;border-radius:12px;padding:11px 12px 13px;text-align:center;font-weight:800;font-size:15px}
 .dosetimer.wait{display:block;background:#1e3a5f;color:#dbeafe;border:1px solid #3b82f6}
 .dosetimer.ready{display:block;background:#14532d;color:#bbf7d0;border:1px solid #22c55e}
 .dosetimer .big{display:block;font-size:38px;letter-spacing:.03em;margin-top:3px;font-variant-numeric:tabular-nums}
@@ -142,7 +142,6 @@ font-family:-apple-system,Arial,sans-serif">
   </div>
 </div>
 
-<div class="dosetimer" id="dosetimer"></div>
 <div class="nag" id="nag"></div>
 <div id="surg"></div>
 <div class="allgood" id="allgood">🎉 All drops done for this day!</div>
@@ -150,7 +149,7 @@ font-family:-apple-system,Arial,sans-serif">
 
 <div class="foot">Times are suggested spacing (10 AM–10 PM), not the doctor's exact times.
 Wait 3–5 min between drops. Shake the pink steroid. "Day 1" = the surgery day itself.<br>
-Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15d</span></div>
+Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15e</span></div>
 </div>
 
 <div id="report"></div>
@@ -239,7 +238,8 @@ function render(){
       '<div class="medhead"><div class="cap" style="background:'+c.md.bg+';color:'+c.md.fg+'">'+c.md.cap+'</div>'+
       '<div><div class="medname">'+c.md.name+'</div><div class="medwhich">'+
       (c.md.eyes.length>1?'both eyes':(c.md.eyes[0].side.toLowerCase()+' eye'))+
-      (c.md.eyes[0].count>1?(' · drop '+c.md.eyes[0].idx+' of '+c.md.eyes[0].count):'')+'</div></div></div><div class="eyes">';
+      (c.md.eyes[0].count>1?(' · drop '+c.md.eyes[0].idx+' of '+c.md.eyes[0].count):'')+'</div></div></div>'+
+      (isNext?'<div class="dosetimer" id="dosetimer"></div>':'')+'<div class="eyes">';
     c.md.eyes.forEach(function(ey){var tk=get(ey.id);var late=tk&&isLate(tk,c.eff);
       var state= tk ? ('😊 '+fmtClock(tk)+(late?' <span class="latetag">⏰ late</span>':'')) : 'tap when done';
       h+='<div class="eyebtn '+ey.eye+(tk?' done':'')+'" data-id="'+ey.id+'" data-slot="'+c.eff+'">'+
@@ -292,6 +292,7 @@ function render(){
   var rs=document.getElementById('resetstart');
   if(rs) rs.onclick=function(){setStart(day.date,'10:00');render();checkNag(true);};
 
+  updateDoseTimer();
   checkNag(false);
 }
 document.getElementById('prev').onclick=()=>{if(cur>0){cur--;render();}};
