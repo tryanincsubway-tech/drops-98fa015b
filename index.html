@@ -48,8 +48,11 @@ font-weight:700;text-align:center;text-decoration:none;cursor:pointer;white-spac
 .cap{width:42px;height:42px;border-radius:10px;flex:none;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800}
 .medname{font-size:21px;font-weight:800;line-height:1.15}.medwhich{font-size:13px;color:#94a3b8;margin-top:2px}
 .eyes{display:flex;gap:9px}
-.eyebtn{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;padding:15px 6px 10px;border-radius:13px;border:2.5px solid #475569;background:#0b1220;color:#e5e7eb;cursor:pointer;user-select:none;transition:.12s}
-.eyebtn:active{transform:scale(.97)}
+.eyebtn{position:relative;overflow:hidden;flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;padding:15px 6px 10px;border-radius:13px;border:2.5px solid #475569;background:#0b1220;color:#e5e7eb;cursor:pointer;user-select:none;-webkit-touch-callout:none;transition:.12s}
+.eyebtn:active{transform:scale(.98)}
+.eyebtn::before{content:'';position:absolute;left:0;bottom:0;height:6px;width:0;background:#22c55e}
+.eyebtn.holding::before{width:100%;transition:width 2s linear}
+.eyebtn.holding{border-color:#22c55e}
 .eyebtn.R{border-color:#ef4444;color:#fecaca}.eyebtn.L{border-color:#3b82f6;color:#bfdbfe}
 .eyebtn.done{background:#14532d}
 .eyebtn.due{animation:pulse 1.1s infinite}
@@ -150,7 +153,7 @@ font-family:-apple-system,Arial,sans-serif">
 
 <div class="foot">Times are suggested spacing (10 AM–10 PM), not the doctor's exact times.
 Wait 3–5 min between drops. Shake the pink steroid. "Day 1" = the surgery day itself.<br>
-Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15f</span></div>
+Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15g</span></div>
 </div>
 
 <div id="report"></div>
@@ -169,6 +172,7 @@ document.getElementById('icsbtn').href = ICS;
 document.getElementById('surgline').textContent = SURG;
 document.getElementById('hint').innerHTML =
   "On iPhone: <b>Share → Add to Home Screen</b> to use like an app. " +
+  "<b>Press &amp; hold a drop 2 seconds</b> to check it off (a tap or scroll won't change it). " +
   "<b>🔔 Alerts</b> ding while open; <b>➕ Calendar</b> dings even when closed; <b>🖨 Report</b> prints/emails the 4-week sheet.";
 
 function todayISO(){const n=new Date();return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0');}
@@ -190,6 +194,30 @@ function updateProgress(){var day=SCHEDULE[cur];var total=0,doneC=0;
   var pt=document.getElementById('dprogtxt');if(pt)pt.textContent=doneC+' of '+total;
   var pf=document.getElementById('dprogfill');if(pf)pf.style.width=(total?Math.round(doneC/total*100):0)+'%';
   var ag=document.getElementById('allgood');if(ag)ag.classList.toggle('show',total>0&&doneC===total);}
+function doEyeAction(b){
+  var id=b.dataset.id;
+  if(get(id)){
+    var side=b.querySelector('.eyelbl')?b.querySelector('.eyelbl').textContent:'this';
+    if(!confirm('Remove the logged '+side+' drop? It will go back to not-taken.')) return;
+    setv(id,'');
+  }else{
+    setv(id,nowHHMM()); localStorage.setItem(KEY+'lastdose',(new Date()).getTime()); startDoseTimer();
+  }
+  render(); checkNag(true);
+}
+function bindHold(b){
+  var timer=null, sy=0;
+  function start(e){ if(e.target.closest('.tedit'))return;
+    sy=(e.touches?e.touches[0].clientY:e.clientY); b.classList.add('holding');
+    timer=setTimeout(function(){timer=null; b.classList.remove('holding'); doEyeAction(b);},2000);
+  }
+  function move(e){ if(timer===null)return; var y=(e.touches?e.touches[0].clientY:e.clientY); if(Math.abs(y-sy)>10)cancel(); }
+  function cancel(){ if(timer){clearTimeout(timer);timer=null;} b.classList.remove('holding'); }
+  b.addEventListener('touchstart',start,{passive:true}); b.addEventListener('touchmove',move,{passive:true});
+  b.addEventListener('touchend',cancel); b.addEventListener('touchcancel',cancel);
+  b.addEventListener('mousedown',start); b.addEventListener('mousemove',move);
+  b.addEventListener('mouseup',cancel); b.addEventListener('mouseleave',cancel);
+}
 function lastDose(){var v=localStorage.getItem(KEY+'lastdose');return v?+v:0;}
 function startDoseTimer(){dingedReady=false; if(doseInt)clearInterval(doseInt); updateDoseTimer(); doseInt=setInterval(updateDoseTimer,1000);}
 function dismissTimer(){localStorage.removeItem(KEY+'lastdose'); var el=document.getElementById('dosetimer'); if(el){el.className='dosetimer';} if(doseInt){clearInterval(doseInt);doseInt=null;}}
@@ -245,7 +273,7 @@ function render(){
       (c.md.eyes[0].count>1?(' · drop '+c.md.eyes[0].idx+' of '+c.md.eyes[0].count):'')+'</div></div></div>'+
       (isNext?'<div class="dosetimer" id="dosetimer" data-sched="'+c.eff+'"></div>':'')+'<div class="eyes">';
     c.md.eyes.forEach(function(ey){var tk=get(ey.id);var late=tk&&isLate(tk,c.eff);
-      var state= tk ? ('😊 '+fmtClock(tk)+(late?' <span class="latetag">⏰ late</span>':'')) : 'tap when done';
+      var state= tk ? ('😊 '+fmtClock(tk)+(late?' <span class="latetag">⏰ late</span>':'')) : 'press &amp; hold 2s';
       h+='<div class="eyebtn '+ey.eye+(tk?' done':'')+'" data-id="'+ey.id+'" data-slot="'+c.eff+'">'+
          '<label class="tedit" title="set the exact time you took it">🕑<input type="time" class="ti" value="'+(tk||c.eff)+'"></label>'+
          '<span class="eyelbl">'+ey.side+' EYE</span>'+eyeSVG()+'<span class="eyestate">'+state+'</span></div>';
@@ -276,14 +304,8 @@ function render(){
   document.getElementById('dprogtxt').textContent=doneC+' of '+total;
   document.getElementById('dprogfill').style.width=(total?Math.round(doneC/total*100):0)+'%';
 
-  // tap = toggle done at NOW (ignore taps on the 🕑 editor)
-  document.querySelectorAll('.eyebtn').forEach(function(b){
-    b.onclick=function(e){ if(e.target.closest('.tedit'))return;
-      var id=b.dataset.id;
-      if(get(id)){setv(id,'');}
-      else{setv(id,nowHHMM()); localStorage.setItem(KEY+'lastdose',(new Date()).getTime()); startDoseTimer();}
-      render(); checkNag(true);};
-  });
+  // press & hold 2s to mark/undo (a quick tap or a scroll won't change anything)
+  document.querySelectorAll('.eyebtn').forEach(bindHold);
   // 🕑 = set/correct the exact time (native time wheel)
   document.querySelectorAll('.tedit').forEach(function(l){
     var inp=l.querySelector('.ti');
