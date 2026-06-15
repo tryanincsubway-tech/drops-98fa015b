@@ -29,6 +29,11 @@ font-weight:700;text-align:center;text-decoration:none;cursor:pointer;white-spac
 .dprogbar{flex:1;height:8px;background:#1e293b;border-radius:6px;overflow:hidden}
 .dprogfill{height:100%;background:#22c55e;width:0;transition:width .25s}
 .nag{margin:11px 12px 0;background:#b45309;color:#fff;border-radius:12px;padding:11px 14px;font-size:13px;font-weight:700;display:none}.nag.show{display:block}
+.dosetimer{display:none;margin:11px 12px 0;border-radius:14px;padding:13px 14px 15px;text-align:center;font-weight:800;font-size:15px}
+.dosetimer.wait{display:block;background:#1e3a5f;color:#dbeafe;border:1px solid #3b82f6}
+.dosetimer.ready{display:block;background:#14532d;color:#bbf7d0;border:1px solid #22c55e}
+.dosetimer .big{display:block;font-size:38px;letter-spacing:.03em;margin-top:3px;font-variant-numeric:tabular-nums}
+.dosetimer .x{float:right;font-weight:800;opacity:.55;cursor:pointer;padding:0 4px;font-size:17px}
 .surgrow{margin:11px 12px 0;background:#7f1d1d;color:#fee2e2;font-size:14px;font-weight:800;padding:11px;border-radius:12px;text-align:center}
 .surgnote{font-size:11.5px;font-weight:500;color:#fecaca;margin-top:6px;line-height:1.45}
 .allgood{margin:11px 12px 0;background:#14532d;color:#bbf7d0;font-size:14px;font-weight:800;padding:13px;border-radius:12px;text-align:center;display:none}.allgood.show{display:block}
@@ -137,6 +142,7 @@ font-family:-apple-system,Arial,sans-serif">
   </div>
 </div>
 
+<div class="dosetimer" id="dosetimer"></div>
 <div class="nag" id="nag"></div>
 <div id="surg"></div>
 <div class="allgood" id="allgood">🎉 All drops done for this day!</div>
@@ -144,7 +150,7 @@ font-family:-apple-system,Arial,sans-serif">
 
 <div class="foot">Times are suggested spacing (10 AM–10 PM), not the doctor's exact times.
 Wait 3–5 min between drops. Shake the pink steroid. "Day 1" = the surgery day itself.<br>
-Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15c</span></div>
+Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15d</span></div>
 </div>
 
 <div id="report"></div>
@@ -157,6 +163,7 @@ const ICS = "data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0D%0AVERSION%3A2
 const KEY = "eyedrops:v4:";
 const LATE_GRACE = 15;            // minutes past slot time = "late"
 let cur = 0, alertsOn = false, audioCtx = null, lastNag = {};
+var WAIT_MS = 5*60*1000, doseInt = null, dingedReady = false;
 
 document.getElementById('icsbtn').href = ICS;
 document.getElementById('surgline').textContent = SURG;
@@ -183,6 +190,23 @@ function updateProgress(){var day=SCHEDULE[cur];var total=0,doneC=0;
   var pt=document.getElementById('dprogtxt');if(pt)pt.textContent=doneC+' of '+total;
   var pf=document.getElementById('dprogfill');if(pf)pf.style.width=(total?Math.round(doneC/total*100):0)+'%';
   var ag=document.getElementById('allgood');if(ag)ag.classList.toggle('show',total>0&&doneC===total);}
+function lastDose(){var v=localStorage.getItem(KEY+'lastdose');return v?+v:0;}
+function startDoseTimer(){dingedReady=false; if(doseInt)clearInterval(doseInt); updateDoseTimer(); doseInt=setInterval(updateDoseTimer,1000);}
+function dismissTimer(){localStorage.removeItem(KEY+'lastdose'); var el=document.getElementById('dosetimer'); if(el){el.className='dosetimer';} if(doseInt){clearInterval(doseInt);doseInt=null;}}
+function updateDoseTimer(){
+  var el=document.getElementById('dosetimer'); if(!el)return;
+  var ld=lastDose(); var now=(new Date()).getTime();
+  if(!ld || now-ld > WAIT_MS+120000){ el.className='dosetimer'; if(doseInt){clearInterval(doseInt);doseInt=null;} return; }
+  var rem=WAIT_MS-(now-ld);
+  if(rem>0){var m=Math.floor(rem/60000),s=Math.floor((rem%60000)/1000);
+    el.className='dosetimer wait';
+    el.innerHTML='<span class="x" onclick="dismissTimer()">✕</span>⏳ Wait before your next drop<span class="big">'+m+':'+(s<10?'0':'')+s+'</span>';
+  }else{
+    el.className='dosetimer ready';
+    el.innerHTML='<span class="x" onclick="dismissTimer()">✕</span>✅ 5 minutes up<span class="big">OK for next drop</span>';
+    if(!dingedReady){dingedReady=true; if(alertsOn){ding(); notify('5 minutes up — OK for your next drop');}}
+  }
+}
 function eyeSVG(){return '<svg class="eyesvg" viewBox="0 0 60 40"><path d="M3 20 C15 4 45 4 57 20 C45 36 15 36 3 20 Z" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="30" cy="20" r="8" fill="currentColor"/></svg>';}
 function startIndex(){const ti=todayISO();let i=SCHEDULE.findIndex(d=>d.date===ti);if(i<0)i=SCHEDULE.findIndex(d=>d.date>=ti);return i<0?0:i;}
 
@@ -243,7 +267,10 @@ function render(){
   // tap = toggle done at NOW (ignore taps on the 🕑 editor)
   document.querySelectorAll('.eyebtn').forEach(function(b){
     b.onclick=function(e){ if(e.target.closest('.tedit'))return;
-      var id=b.dataset.id; if(get(id))setv(id,''); else setv(id,nowHHMM()); render(); checkNag(true);};
+      var id=b.dataset.id;
+      if(get(id)){setv(id,'');}
+      else{setv(id,nowHHMM()); localStorage.setItem(KEY+'lastdose',(new Date()).getTime()); startDoseTimer();}
+      render(); checkNag(true);};
   });
   // 🕑 = set/correct the exact time (native time wheel)
   document.querySelectorAll('.tedit').forEach(function(l){
@@ -349,4 +376,5 @@ function buildReport(){
 document.getElementById('printbtn').onclick=function(){buildReport();window.print();};
 
 cur=startIndex();render();
+if(lastDose()) startDoseTimer();
 </script></body></html>
