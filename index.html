@@ -39,7 +39,7 @@ font-weight:700;text-align:center;text-decoration:none;cursor:pointer;white-spac
 .cap{width:42px;height:42px;border-radius:10px;flex:none;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800}
 .medname{font-size:17px;font-weight:800;line-height:1.1}.medwhich{font-size:11.5px;color:#94a3b8;margin-top:1px}
 .eyes{display:flex;gap:9px}
-.eyebtn{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;padding:10px 6px;border-radius:13px;border:2.5px solid #475569;background:#0b1220;color:#e5e7eb;cursor:pointer;user-select:none;transition:.12s}
+.eyebtn{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;padding:15px 6px 10px;border-radius:13px;border:2.5px solid #475569;background:#0b1220;color:#e5e7eb;cursor:pointer;user-select:none;transition:.12s}
 .eyebtn:active{transform:scale(.97)}
 .eyebtn.R{border-color:#ef4444;color:#fecaca}.eyebtn.L{border-color:#3b82f6;color:#bfdbfe}
 .eyebtn.done{background:#14532d}
@@ -50,6 +50,12 @@ font-weight:700;text-align:center;text-decoration:none;cursor:pointer;white-spac
 .eyestate{font-size:11.5px;font-weight:700;color:#94a3b8;min-height:14px;text-align:center}
 .eyebtn.done .eyestate{color:#86efac}
 .latetag{color:#fca5a5;font-weight:800}
+.tedit{position:absolute;top:3px;right:5px;font-size:15px;line-height:1;opacity:.65;cursor:pointer;padding:5px}
+.tedit .ti{position:absolute;left:0;top:0;width:30px;height:26px;opacity:0;border:0;padding:0;margin:0}
+.daystart{margin:12px 12px 0;background:#1e293b;border:1px solid #334155;border-radius:12px;padding:10px 12px;font-size:13px;color:#cbd5e1;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.daystart input[type=time]{background:#0b1220;border:1px solid #334155;color:#fff;border-radius:8px;padding:7px 9px;font-size:15px;font-weight:700}
+.ministart{background:#334155;border:none;color:#cbd5e1;border-radius:8px;padding:6px 10px;font-size:12px;cursor:pointer}
+.dshint{flex-basis:100%;font-size:11px;color:#94a3b8;margin-top:1px}
 .foot{font-size:11px;color:#64748b;padding:22px 18px 0;line-height:1.6;text-align:center}
 .empty{margin:14px 12px;text-align:center;color:#64748b;font-size:14px;padding:24px;background:#1e293b;border-radius:14px}
 /* ---------- printable report ---------- */
@@ -162,6 +168,13 @@ function fmtClock(hhmm){let[h,m]=hhmm.split(':').map(Number);const ap=h<12?'a':'
 function get(id){return localStorage.getItem(KEY+id);}            // stored value = HH:MM taken, or null
 function setv(id,v){if(v)localStorage.setItem(KEY+id,v);else localStorage.removeItem(KEY+id);}
 function isLate(takenHHMM,slot){return toMin(takenHHMM)-toMin(slot)>LATE_GRACE;}
+function pad2(n){return (n<10?'0':'')+n;}
+function minToHHMM(m){m=((m%1440)+1440)%1440;return pad2(Math.floor(m/60))+':'+pad2(m%60);}
+function shift(hhmm,delta){return minToHHMM(toMin(hhmm)+delta);}
+function fmtAP(hhmm){var p=hhmm.split(':');var h=+p[0],m=+p[1];var ap=h<12?'AM':'PM';h=h%12||12;return h+':'+pad2(m)+' '+ap;}
+function startKey(date){return KEY+'start:'+date;}
+function getStart(date){return localStorage.getItem(startKey(date))||'10:00';}
+function setStart(date,v){if(v&&v!=='10:00')localStorage.setItem(startKey(date),v);else localStorage.removeItem(startKey(date));}
 function eyeSVG(){return '<svg class="eyesvg" viewBox="0 0 60 40"><path d="M3 20 C15 4 45 4 57 20 C45 36 15 36 3 20 Z" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="30" cy="20" r="8" fill="currentColor"/></svg>';}
 function startIndex(){const ti=todayISO();let i=SCHEDULE.findIndex(d=>d.date===ti);if(i<0)i=SCHEDULE.findIndex(d=>d.date>=ti);return i<0?0:i;}
 
@@ -174,42 +187,68 @@ function render(){
   document.getElementById('next').disabled=(cur===SCHEDULE.length-1);
   document.getElementById('surg').innerHTML=day.surgery?('<div class="surgrow">🏥 SURGERY — '+day.surgery.toUpperCase()+'</div>'):'';
 
-  // flatten to cards (one med per time slot)
+  var dayStart=getStart(day.date), delta=toMin(dayStart)-600;
+
+  // flatten to cards (one med per time slot); times shift by the day's start
   let cards=[];
-  day.slots.forEach(s=>s.meds.forEach(md=>{
-    let done=0;md.eyes.forEach(e=>{if(get(e.id))done++;});
-    cards.push({time:s.time,label:s.label,md:md,done:done,total:md.eyes.length,allDone:done===md.eyes.length});
-  }));
-  let total=0,doneC=0;cards.forEach(c=>{total+=c.total;doneC+=c.done;});
-  const pending=cards.filter(c=>!c.allDone).sort((a,b)=>a.time.localeCompare(b.time));
-  const done=cards.filter(c=>c.allDone).sort((a,b)=>a.time.localeCompare(b.time));
+  day.slots.forEach(function(s){s.meds.forEach(function(md){
+    var done=0;md.eyes.forEach(function(e){if(get(e.id))done++;});
+    var eff=shift(s.time,delta);
+    cards.push({eff:eff,label:fmtAP(eff),md:md,done:done,total:md.eyes.length,allDone:done===md.eyes.length});
+  });});
+  let total=0,doneC=0;cards.forEach(function(c){total+=c.total;doneC+=c.done;});
+  var pending=cards.filter(function(c){return !c.allDone;}).sort(function(a,b){return a.eff.localeCompare(b.eff);});
+  var done=cards.filter(function(c){return c.allDone;}).sort(function(a,b){return a.eff.localeCompare(b.eff);});
 
   function cardHTML(c,isNext){
-    let h='<div class="med'+(c.allDone?' taken':'')+'"><div class="medtop"><span class="medtime">⏰ '+c.label+'</span>'+
+    var h='<div class="med'+(c.allDone?' taken':'')+'"><div class="medtop"><span class="medtime">⏰ '+c.label+'</span>'+
       (isNext?'<span class="nextup">NEXT UP</span>':'')+'</div>'+
       '<div class="medhead"><div class="cap" style="background:'+c.md.bg+';color:'+c.md.fg+'">'+c.md.cap+'</div>'+
       '<div><div class="medname">'+c.md.name+'</div><div class="medwhich">'+
       (c.md.eyes.length>1?'both eyes':(c.md.eyes[0].side.toLowerCase()+' eye'))+
       (c.md.eyes[0].count>1?(' · drop '+c.md.eyes[0].idx+' of '+c.md.eyes[0].count):'')+'</div></div></div><div class="eyes">';
-    c.md.eyes.forEach(ey=>{const tk=get(ey.id);const late=tk&&isLate(tk,c.time);
-      let state='tap when done';
-      if(tk){state='😊 '+fmtClock(tk)+(late?' <span class="latetag">⏰ late</span>':'');}
-      h+='<button class="eyebtn '+ey.eye+(tk?' done':'')+'" data-id="'+ey.id+'" data-slot="'+c.time+'">'+
-         '<span class="eyelbl">'+ey.side+' EYE</span>'+eyeSVG()+'<span class="eyestate">'+state+'</span></button>';
+    c.md.eyes.forEach(function(ey){var tk=get(ey.id);var late=tk&&isLate(tk,c.eff);
+      var state= tk ? ('😊 '+fmtClock(tk)+(late?' <span class="latetag">⏰ late</span>':'')) : 'tap when done';
+      h+='<div class="eyebtn '+ey.eye+(tk?' done':'')+'" data-id="'+ey.id+'" data-slot="'+c.eff+'">'+
+         '<label class="tedit" title="set the exact time you took it">🕑<input type="time" class="ti" value="'+(tk||c.eff)+'"></label>'+
+         '<span class="eyelbl">'+ey.side+' EYE</span>'+eyeSVG()+'<span class="eyestate">'+state+'</span></div>';
     });
     return h+'</div></div>';
   }
 
-  let h='';
-  pending.forEach((c,i)=>h+=cardHTML(c,i===0&&day.date===todayISO()));
-  if(done.length){h+='<div class="sect">✓ Taken</div>';done.forEach(c=>h+=cardHTML(c,false));}
+  var h='';
+  if(total){
+    h+='<div class="daystart">⏱ This day starts at '+
+       '<input type="time" id="daystart" value="'+dayStart+'">'+
+       (delta!==0?' <button id="resetstart" class="ministart">reset to 10:00</button>':'')+
+       '<span class="dshint">Shifts this whole day’s drop times from your start time. Tap the 🕑 on a drop to log the exact time you took it.</span></div>';
+  }
+  pending.forEach(function(c,i){h+=cardHTML(c,i===0&&day.date===todayISO());});
+  if(done.length){h+='<div class="sect">✓ Taken</div>';done.forEach(function(c){h+=cardHTML(c,false);});}
   if(!total)h='<div class="empty">No drops this day'+(day.surgery?' — surgery day, drops resume tomorrow.':'.')+'</div>';
   document.getElementById('body').innerHTML=h;
   document.getElementById('allgood').classList.toggle('show',total>0&&pending.length===0);
   document.getElementById('dprogtxt').textContent=doneC+' of '+total;
   document.getElementById('dprogfill').style.width=(total?Math.round(doneC/total*100):0)+'%';
-  document.querySelectorAll('.eyebtn').forEach(b=>b.onclick=()=>{
-    const id=b.dataset.id; if(get(id))setv(id,''); else setv(id,nowHHMM()); render(); checkNag(true);});
+
+  // tap = toggle done at NOW (ignore taps on the 🕑 editor)
+  document.querySelectorAll('.eyebtn').forEach(function(b){
+    b.onclick=function(e){ if(e.target.closest('.tedit'))return;
+      var id=b.dataset.id; if(get(id))setv(id,''); else setv(id,nowHHMM()); render(); checkNag(true);};
+  });
+  // 🕑 = set/correct the exact time (native time wheel)
+  document.querySelectorAll('.tedit').forEach(function(l){
+    var inp=l.querySelector('.ti');
+    l.addEventListener('click',function(e){e.stopPropagation(); try{ if(inp.showPicker) inp.showPicker(); else inp.focus(); }catch(_){inp.focus();} });
+    inp.addEventListener('change',function(e){e.stopPropagation(); var b=l.closest('.eyebtn');
+      if(inp.value) setv(b.dataset.id, inp.value); render(); checkNag(true);});
+  });
+  // per-day start time
+  var ds=document.getElementById('daystart');
+  if(ds) ds.addEventListener('change',function(){setStart(day.date,ds.value);render();checkNag(true);});
+  var rs=document.getElementById('resetstart');
+  if(rs) rs.onclick=function(){setStart(day.date,'10:00');render();checkNag(true);};
+
   checkNag(false);
 }
 document.getElementById('prev').onclick=()=>{if(cur>0){cur--;render();}};
@@ -228,20 +267,21 @@ document.getElementById('alertbtn').onclick=function(){
   if('Notification'in window&&Notification.permission!=='granted')Notification.requestPermission();
   alertsOn=true;this.classList.add('on');this.textContent='🔔 Alerts on';ding();checkNag(true);};
 function checkNag(forceDing){
-  const ti=todayISO();const day=SCHEDULE.find(d=>d.date===ti);
-  document.querySelectorAll('.eyebtn.due').forEach(b=>b.classList.remove('due'));
-  const nagEl=document.getElementById('nag');
+  var ti=todayISO();var day=SCHEDULE.find(function(d){return d.date===ti;});
+  document.querySelectorAll('.eyebtn.due').forEach(function(b){b.classList.remove('due');});
+  var nagEl=document.getElementById('nag');
   if(!day){nagEl.classList.remove('show');return;}
-  const now=new Date();let overdue=[];
-  day.slots.forEach(s=>{const t=new Date();const[hh,mm]=s.time.split(':').map(Number);t.setHours(hh,mm,0,0);
-    const lateMin=(now-t)/60000;
-    s.meds.forEach(md=>md.eyes.forEach(ey=>{if(get(ey.id))return;if(lateMin>=15)overdue.push({id:ey.id,name:md.name,side:ey.side,time:s.label});}));});
-  if(SCHEDULE[cur].date===ti)overdue.forEach(o=>{const b=document.querySelector('.eyebtn[data-id="'+o.id+'"]');if(b)b.classList.add('due');});
+  var delta=toMin(getStart(ti))-600;
+  var now=new Date();var overdue=[];
+  day.slots.forEach(function(s){var eff=shift(s.time,delta);var p=eff.split(':');var t=new Date();t.setHours(+p[0],+p[1],0,0);
+    var lateMin=(now-t)/60000;
+    s.meds.forEach(function(md){md.eyes.forEach(function(ey){if(get(ey.id))return;if(lateMin>=15)overdue.push({id:ey.id,name:md.name,side:ey.side,time:fmtAP(eff)});});});});
+  if(SCHEDULE[cur].date===ti)overdue.forEach(function(o){var b=document.querySelector('.eyebtn[data-id="'+o.id+'"]');if(b)b.classList.add('due');});
   if(overdue.length){nagEl.classList.add('show');
-    nagEl.textContent='⏰ Overdue: '+overdue.map(o=>o.side+' '+o.name+' ('+o.time+')').join(', ');
-    if(alertsOn){const nowMs=now.getTime();let fire=false;
-      overdue.forEach(o=>{if(!lastNag[o.id]||nowMs-lastNag[o.id]>=10*60000){lastNag[o.id]=nowMs;fire=true;}});
-      if(fire||forceDing){ding();notify(overdue.map(o=>o.side+' '+o.name).join(', ')+' — '+overdue.length+' drop(s) due');}}
+    nagEl.textContent='⏰ Overdue: '+overdue.map(function(o){return o.side+' '+o.name+' ('+o.time+')';}).join(', ');
+    if(alertsOn){var nowMs=now.getTime();var fire=false;
+      overdue.forEach(function(o){if(!lastNag[o.id]||nowMs-lastNag[o.id]>=10*60000){lastNag[o.id]=nowMs;fire=true;}});
+      if(fire||forceDing){ding();notify(overdue.map(function(o){return o.side+' '+o.name;}).join(', ')+' — '+overdue.length+' drop(s) due');}}
   }else nagEl.classList.remove('show');
 }
 setInterval(()=>checkNag(false),30000);
