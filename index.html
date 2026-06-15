@@ -240,8 +240,10 @@ function render(){
   document.querySelectorAll('.tedit').forEach(function(l){
     var inp=l.querySelector('.ti');
     l.addEventListener('click',function(e){e.stopPropagation(); try{ if(inp.showPicker) inp.showPicker(); else inp.focus(); }catch(_){inp.focus();} });
-    inp.addEventListener('change',function(e){e.stopPropagation(); var b=l.closest('.eyebtn');
-      if(inp.value) setv(b.dataset.id, inp.value); render(); checkNag(true);});
+    // save quietly as the wheels move — do NOT re-render (that was yanking the picker out mid-spin)
+    inp.addEventListener('change',function(e){e.stopPropagation(); var b=l.closest('.eyebtn'); if(inp.value) setv(b.dataset.id, inp.value);});
+    // only refresh the screen once you close the picker (press Done / tap away)
+    inp.addEventListener('blur',function(e){ render(); checkNag(true); });
   });
   // per-day start time
   var ds=document.getElementById('daystart');
