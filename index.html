@@ -38,6 +38,7 @@ font-weight:700;text-align:center;text-decoration:none;cursor:pointer;white-spac
 .surgnote{font-size:11.5px;font-weight:500;color:#fecaca;margin-top:6px;line-height:1.45}
 .allgood{margin:11px 12px 0;background:#14532d;color:#bbf7d0;font-size:14px;font-weight:800;padding:13px;border-radius:12px;text-align:center;display:none}.allgood.show{display:block}
 .sect{font-size:12px;font-weight:800;color:#64748b;margin:18px 14px 4px;letter-spacing:.04em;text-transform:uppercase}
+.dosesep{font-size:12.5px;font-weight:800;color:#7dd3fc;margin:14px 14px 2px;border-top:1px solid #243244;padding-top:9px}
 .med{background:#1e293b;border:1px solid #334155;border-radius:15px;padding:10px 12px;margin:9px 12px 0;transition:opacity .2s}
 .med.taken{opacity:.6}
 .medtop{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
@@ -149,7 +150,7 @@ font-family:-apple-system,Arial,sans-serif">
 
 <div class="foot">Times are suggested spacing (10 AM–10 PM), not the doctor's exact times.
 Wait 3–5 min between drops. Shake the pink steroid. "Day 1" = the surgery day itself.<br>
-Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15e</span></div>
+Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.15f</span></div>
 </div>
 
 <div id="report"></div>
@@ -192,18 +193,21 @@ function updateProgress(){var day=SCHEDULE[cur];var total=0,doneC=0;
 function lastDose(){var v=localStorage.getItem(KEY+'lastdose');return v?+v:0;}
 function startDoseTimer(){dingedReady=false; if(doseInt)clearInterval(doseInt); updateDoseTimer(); doseInt=setInterval(updateDoseTimer,1000);}
 function dismissTimer(){localStorage.removeItem(KEY+'lastdose'); var el=document.getElementById('dosetimer'); if(el){el.className='dosetimer';} if(doseInt){clearInterval(doseInt);doseInt=null;}}
+function fmtDur(ms){var s=Math.round(ms/1000);var h=Math.floor(s/3600);var m=Math.floor((s%3600)/60);var ss=s%60;
+  if(h>0)return h+'h '+(m<10?'0':'')+m+'m'; return m+':'+(ss<10?'0':'')+ss;}
 function updateDoseTimer(){
+  // Counts down to the NEXT drop's scheduled time (≈5 min for staggered ones, hours for the next slot),
+  // but never less than 5 min after the last drop you took (the 3–5 min wait rule).
   var el=document.getElementById('dosetimer'); if(!el)return;
-  var ld=lastDose(); var now=(new Date()).getTime();
-  if(!ld || now-ld > WAIT_MS+120000){ el.className='dosetimer'; if(doseInt){clearInterval(doseInt);doseInt=null;} return; }
-  var rem=WAIT_MS-(now-ld);
-  if(rem>0){var m=Math.floor(rem/60000),s=Math.floor((rem%60000)/1000);
-    el.className='dosetimer wait';
-    el.innerHTML='<span class="x" onclick="dismissTimer()">✕</span>⏳ Wait before your next drop<span class="big">'+m+':'+(s<10?'0':'')+s+'</span>';
-  }else{
-    el.className='dosetimer ready';
-    el.innerHTML='<span class="x" onclick="dismissTimer()">✕</span>✅ 5 minutes up<span class="big">OK for next drop</span>';
-    if(!dingedReady){dingedReady=true; if(alertsOn){ding(); notify('5 minutes up — OK for your next drop');}}
+  var sched=el.dataset.sched; if(!sched){el.className='dosetimer';return;}
+  var p=sched.split(':'); var t=new Date(); t.setHours(+p[0],+p[1],0,0); var target=t.getTime();
+  var ld=lastDose(); if(ld && ld+WAIT_MS>target) target=ld+WAIT_MS;
+  var rem=target-(new Date()).getTime();
+  if(rem>0){ el.className='dosetimer wait';
+    el.innerHTML='⏳ Next drop in<span class="big">'+fmtDur(rem)+'</span>';
+  }else{ el.className='dosetimer ready';
+    el.innerHTML='✅ Time for your next drop<span class="big">do it now</span>';
+    if(!dingedReady){dingedReady=true; if(alertsOn){ding();notify('Time for your next eye drop');}}
   }
 }
 function eyeSVG(){return '<svg class="eyesvg" viewBox="0 0 60 40"><path d="M3 20 C15 4 45 4 57 20 C45 36 15 36 3 20 Z" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="30" cy="20" r="8" fill="currentColor"/></svg>';}
@@ -239,7 +243,7 @@ function render(){
       '<div><div class="medname">'+c.md.name+'</div><div class="medwhich">'+
       (c.md.eyes.length>1?'both eyes':(c.md.eyes[0].side.toLowerCase()+' eye'))+
       (c.md.eyes[0].count>1?(' · drop '+c.md.eyes[0].idx+' of '+c.md.eyes[0].count):'')+'</div></div></div>'+
-      (isNext?'<div class="dosetimer" id="dosetimer"></div>':'')+'<div class="eyes">';
+      (isNext?'<div class="dosetimer" id="dosetimer" data-sched="'+c.eff+'"></div>':'')+'<div class="eyes">';
     c.md.eyes.forEach(function(ey){var tk=get(ey.id);var late=tk&&isLate(tk,c.eff);
       var state= tk ? ('😊 '+fmtClock(tk)+(late?' <span class="latetag">⏰ late</span>':'')) : 'tap when done';
       h+='<div class="eyebtn '+ey.eye+(tk?' done':'')+'" data-id="'+ey.id+'" data-slot="'+c.eff+'">'+
@@ -257,7 +261,15 @@ function render(){
        '<span class="dshint">Shifts this whole day’s drop times from your start time. Tap the 🕑 on a drop to log the exact time you took it.</span></div>';
   }
   pending.forEach(function(c,i){h+=cardHTML(c,i===0&&day.date===todayISO());});
-  if(done.length){h+='<div class="sect">✓ Taken</div>';done.forEach(function(c){h+=cardHTML(c,false);});}
+  if(done.length){
+    done.forEach(function(c){var ts='';c.md.eyes.forEach(function(e){var v=get(e.id);if(v&&v>ts)ts=v;});c.takenAt=ts;});
+    var asc=done.slice().sort(function(a,b){return a.takenAt.localeCompare(b.takenAt);});
+    asc.forEach(function(c,i){c.doseNum=i+1;});                 // 1 = first one you took
+    h+='<div class="sect">✓ Taken — newest on top, first dose at the bottom</div>';
+    asc.slice().reverse().forEach(function(c){                  // newest at top, Dose 1 at bottom
+      h+='<div class="dosesep">Dose '+c.doseNum+(c.takenAt?' · taken '+fmtClock(c.takenAt):'')+'</div>'+cardHTML(c,false);
+    });
+  }
   if(!total)h='<div class="empty">No drops this day'+(day.surgery?' — surgery day, drops resume tomorrow.':'.')+'</div>';
   document.getElementById('body').innerHTML=h;
   document.getElementById('allgood').classList.toggle('show',total>0&&pending.length===0);
@@ -377,5 +389,5 @@ function buildReport(){
 document.getElementById('printbtn').onclick=function(){buildReport();window.print();};
 
 cur=startIndex();render();
-if(lastDose()) startDoseTimer();
+startDoseTimer();
 </script></body></html>
