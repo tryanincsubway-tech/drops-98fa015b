@@ -75,12 +75,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-4@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260614T140000
-DTEND:20260614T141000
+DTSTART:20260614T132000
+DTEND:20260614T133000
 SUMMARY:💊 Prednisolone — Right eye (drop 2 of 4) — pre-op  (PINK c
  ap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -98,12 +98,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-5@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260614T180000
-DTEND:20260614T181000
+DTSTART:20260614T164000
+DTEND:20260614T165000
 SUMMARY:💊 Prednisolone — Right eye (drop 3 of 4) — pre-op  (PINK c
  ap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -121,13 +121,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-6@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260614T220000
-DTEND:20260614T221000
+DTSTART:20260614T200000
+DTEND:20260614T201000
 SUMMARY:💊 Prednisolone — Right eye (drop 4 of 4) — pre-op  (PINK c
  ap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Right eye (drop 4 of 4) — pre-op  (PI
@@ -144,13 +144,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-7@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260614T220500
-DTEND:20260614T221500
+DTSTART:20260614T200500
+DTEND:20260614T201500
 SUMMARY:💊 Moxifloxacin — Right eye (drop 2 of 2) — pre-op  (BEIGE 
  cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Right eye (drop 2 of 2) — pre-op  (BE
@@ -229,11 +229,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-11@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260615T140000
-DTEND:20260615T141000
+DTSTART:20260615T132000
+DTEND:20260615T133000
 SUMMARY:💊 Prednisolone — Right eye (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -250,11 +250,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-12@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260615T180000
-DTEND:20260615T181000
+DTSTART:20260615T164000
+DTEND:20260615T165000
 SUMMARY:💊 Prednisolone — Right eye (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -271,12 +271,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-13@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260615T220000
-DTEND:20260615T221000
+DTSTART:20260615T200000
+DTEND:20260615T201000
 SUMMARY:💊 Prednisolone — Right eye (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Right eye (drop 4 of 4)  (PINK cap)
@@ -292,12 +292,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-14@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260615T220500
-DTEND:20260615T221500
+DTSTART:20260615T200500
+DTEND:20260615T201500
 SUMMARY:💊 Moxifloxacin — Right eye (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Right eye (drop 2 of 2)  (BEIGE cap)
@@ -375,11 +375,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-18@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260616T140000
-DTEND:20260616T141000
+DTSTART:20260616T132000
+DTEND:20260616T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 4)\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -396,11 +396,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-19@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260616T180000
-DTEND:20260616T181000
+DTSTART:20260616T164000
+DTEND:20260616T165000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 3 of 4)\n• LEFT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -417,12 +417,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-20@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260616T220000
-DTEND:20260616T221000
+DTSTART:20260616T200000
+DTEND:20260616T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
@@ -438,12 +438,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-21@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260616T220500
-DTEND:20260616T221500
+DTSTART:20260616T200500
+DTEND:20260616T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -521,11 +521,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-25@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260617T140000
-DTEND:20260617T141000
+DTSTART:20260617T132000
+DTEND:20260617T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 4)\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -542,11 +542,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-26@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260617T180000
-DTEND:20260617T181000
+DTSTART:20260617T164000
+DTEND:20260617T165000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 3 of 4)\n• LEFT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -563,12 +563,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-27@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260617T220000
-DTEND:20260617T221000
+DTSTART:20260617T200000
+DTEND:20260617T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
@@ -584,12 +584,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-28@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260617T220500
-DTEND:20260617T221500
+DTSTART:20260617T200500
+DTEND:20260617T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -667,11 +667,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-32@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260618T140000
-DTEND:20260618T141000
+DTSTART:20260618T132000
+DTEND:20260618T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 4)\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -688,11 +688,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-33@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260618T180000
-DTEND:20260618T181000
+DTSTART:20260618T164000
+DTEND:20260618T165000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 3 of 4)\n• LEFT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -709,12 +709,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-34@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260618T220000
-DTEND:20260618T221000
+DTSTART:20260618T200000
+DTEND:20260618T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
@@ -730,12 +730,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-35@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260618T220500
-DTEND:20260618T221500
+DTSTART:20260618T200500
+DTEND:20260618T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -813,11 +813,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-39@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260619T140000
-DTEND:20260619T141000
+DTSTART:20260619T132000
+DTEND:20260619T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 4)\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -834,11 +834,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-40@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260619T180000
-DTEND:20260619T181000
+DTSTART:20260619T164000
+DTEND:20260619T165000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 3 of 4)\n• LEFT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -855,12 +855,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-41@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260619T220000
-DTEND:20260619T221000
+DTSTART:20260619T200000
+DTEND:20260619T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
@@ -876,12 +876,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-42@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260619T220500
-DTEND:20260619T221500
+DTSTART:20260619T200500
+DTEND:20260619T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -959,11 +959,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-46@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260620T140000
-DTEND:20260620T141000
+DTSTART:20260620T132000
+DTEND:20260620T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 4)\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -980,11 +980,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-47@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260620T180000
-DTEND:20260620T181000
+DTSTART:20260620T164000
+DTEND:20260620T165000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 3 of 4)\n• LEFT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1001,12 +1001,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-48@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260620T220000
-DTEND:20260620T221000
+DTSTART:20260620T200000
+DTEND:20260620T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
@@ -1022,12 +1022,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-49@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260620T220500
-DTEND:20260620T221500
+DTSTART:20260620T200500
+DTEND:20260620T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -1105,11 +1105,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-53@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260621T140000
-DTEND:20260621T141000
+DTSTART:20260621T132000
+DTEND:20260621T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 4)\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1126,11 +1126,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-54@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260621T180000
-DTEND:20260621T181000
+DTSTART:20260621T164000
+DTEND:20260621T165000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 3 of 4)\n• LEFT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1147,12 +1147,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-55@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260621T220000
-DTEND:20260621T221000
+DTSTART:20260621T200000
+DTEND:20260621T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
@@ -1168,12 +1168,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-56@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260621T220500
-DTEND:20260621T221500
+DTSTART:20260621T200500
+DTEND:20260621T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -1250,11 +1250,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-60@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260622T140000
-DTEND:20260622T141000
+DTSTART:20260622T132000
+DTEND:20260622T133000
 SUMMARY:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1271,11 +1271,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-61@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260622T160000
-DTEND:20260622T161000
+DTSTART:20260622T150000
+DTEND:20260622T151000
 SUMMARY:💊 Prednisolone — Right eye (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1292,11 +1292,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-62@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260622T180000
-DTEND:20260622T181000
+DTSTART:20260622T164000
+DTEND:20260622T165000
 SUMMARY:💊 Prednisolone — Left eye (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• LEFT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1313,12 +1313,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-63@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260622T220000
-DTEND:20260622T221000
+DTSTART:20260622T200000
+DTEND:20260622T201000
 SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
@@ -1333,12 +1333,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-64@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260622T220500
-DTEND:20260622T221500
+DTSTART:20260622T200500
+DTEND:20260622T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -1415,11 +1415,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-68@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260623T140000
-DTEND:20260623T141000
+DTSTART:20260623T132000
+DTEND:20260623T133000
 SUMMARY:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 2:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
  ps:\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1436,11 +1436,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-69@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260623T160000
-DTEND:20260623T161000
+DTSTART:20260623T150000
+DTEND:20260623T151000
 SUMMARY:💊 Prednisolone — Right eye (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1457,11 +1457,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-70@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260623T180000
-DTEND:20260623T181000
+DTSTART:20260623T164000
+DTEND:20260623T165000
 SUMMARY:💊 Prednisolone — Left eye (drop 3 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 6:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 4:40 PM.\nWait 3-5 min between dro
  ps:\n• LEFT eye (drop 3 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1478,12 +1478,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-71@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260623T220000
-DTEND:20260623T221000
+DTSTART:20260623T200000
+DTEND:20260623T201000
 SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
@@ -1498,12 +1498,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-72@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260623T220500
-DTEND:20260623T221500
+DTSTART:20260623T200500
+DTEND:20260623T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -1581,11 +1581,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-76@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260624T160000
-DTEND:20260624T161000
+DTSTART:20260624T150000
+DTEND:20260624T151000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 3)\n• LEFT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1602,12 +1602,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-77@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260624T220000
-DTEND:20260624T221000
+DTSTART:20260624T200000
+DTEND:20260624T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
@@ -1623,12 +1623,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-78@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260624T220500
-DTEND:20260624T221500
+DTSTART:20260624T200500
+DTEND:20260624T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -1706,11 +1706,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-82@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260625T160000
-DTEND:20260625T161000
+DTSTART:20260625T150000
+DTEND:20260625T151000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 3)\n• LEFT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1727,12 +1727,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-83@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260625T220000
-DTEND:20260625T221000
+DTSTART:20260625T200000
+DTEND:20260625T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
@@ -1748,12 +1748,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-84@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260625T220500
-DTEND:20260625T221500
+DTSTART:20260625T200500
+DTEND:20260625T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -1831,11 +1831,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-88@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260626T160000
-DTEND:20260626T161000
+DTSTART:20260626T150000
+DTEND:20260626T151000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 3)\n• LEFT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1852,12 +1852,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-89@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260626T220000
-DTEND:20260626T221000
+DTSTART:20260626T200000
+DTEND:20260626T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
@@ -1873,12 +1873,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-90@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260626T220500
-DTEND:20260626T221500
+DTSTART:20260626T200500
+DTEND:20260626T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -1956,11 +1956,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-94@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260627T160000
-DTEND:20260627T161000
+DTSTART:20260627T150000
+DTEND:20260627T151000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 3)\n• LEFT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1977,12 +1977,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-95@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260627T220000
-DTEND:20260627T221000
+DTSTART:20260627T200000
+DTEND:20260627T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
@@ -1998,12 +1998,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-96@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260627T220500
-DTEND:20260627T221500
+DTSTART:20260627T200500
+DTEND:20260627T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -2081,11 +2081,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-100@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260628T160000
-DTEND:20260628T161000
+DTSTART:20260628T150000
+DTEND:20260628T151000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• RIGHT eye (drop 2 of 3)\n• LEFT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2102,12 +2102,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-101@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260628T220000
-DTEND:20260628T221000
+DTSTART:20260628T200000
+DTEND:20260628T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 3 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 3 of 3)  (PINK cap)
@@ -2123,12 +2123,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-102@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260628T220500
-DTEND:20260628T221500
+DTSTART:20260628T200500
+DTEND:20260628T201500
 SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
@@ -2204,11 +2204,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-106@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260629T160000
-DTEND:20260629T161000
+DTSTART:20260629T150000
+DTEND:20260629T151000
 SUMMARY:💊 Prednisolone — Left eye (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• LEFT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2225,12 +2225,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-107@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260629T220000
-DTEND:20260629T221000
+DTSTART:20260629T200000
+DTEND:20260629T201000
 SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 3 of 3)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 3 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
@@ -2245,12 +2245,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-108@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260629T220500
-DTEND:20260629T221500
+DTSTART:20260629T200500
+DTEND:20260629T201500
 SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
@@ -2326,11 +2326,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-112@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260630T160000
-DTEND:20260630T161000
+DTSTART:20260630T150000
+DTEND:20260630T151000
 SUMMARY:💊 Prednisolone — Left eye (drop 2 of 3)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 4:00 PM.\nWait 3-5 min between dro
+DESCRIPTION:Prednisolone (PINK cap) at 3:00 PM.\nWait 3-5 min between dro
  ps:\n• LEFT eye (drop 2 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2347,12 +2347,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-113@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260630T220000
-DTEND:20260630T221000
+DTSTART:20260630T200000
+DTEND:20260630T201000
 SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 3 of 3)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 3 of 3)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
@@ -2367,12 +2367,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-114@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260630T220500
-DTEND:20260630T221500
+DTSTART:20260630T200500
+DTEND:20260630T201500
 SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 PM.\nWait 3-5 min between d
- rops:\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
@@ -2429,12 +2429,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-117@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260701T220000
-DTEND:20260701T221000
+DTSTART:20260701T200000
+DTEND:20260701T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
@@ -2491,12 +2491,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-120@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260702T220000
-DTEND:20260702T221000
+DTSTART:20260702T200000
+DTEND:20260702T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
@@ -2553,12 +2553,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-123@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260703T220000
-DTEND:20260703T221000
+DTSTART:20260703T200000
+DTEND:20260703T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
@@ -2615,12 +2615,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-126@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260704T220000
-DTEND:20260704T221000
+DTSTART:20260704T200000
+DTEND:20260704T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
@@ -2677,12 +2677,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-129@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260705T220000
-DTEND:20260705T221000
+DTSTART:20260705T200000
+DTEND:20260705T201000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes (drop 2 of 2)  (PINK cap)
@@ -2738,12 +2738,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-132@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260706T220000
-DTEND:20260706T221000
+DTSTART:20260706T200000
+DTEND:20260706T201000
 SUMMARY:💊 Prednisolone — Left eye (drop 2 of 2)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Left eye (drop 2 of 2)  (PINK cap)
@@ -2799,12 +2799,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-135@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260707T220000
-DTEND:20260707T221000
+DTSTART:20260707T200000
+DTEND:20260707T201000
 SUMMARY:💊 Prednisolone — Left eye (drop 2 of 2)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 PM.\nWait 3-5 min between dr
- ops:\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Left eye (drop 2 of 2)  (PINK cap)
