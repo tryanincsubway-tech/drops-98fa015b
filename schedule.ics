@@ -54,27 +54,6 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-3@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260614T101000
-DTEND:20260614T102000
-SUMMARY:💊 Prolensa — Right eye — pre-op  (GREY cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Right eye — pre-op  (GREY cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Right eye — pre-op  (GREY 
- cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-4@tryan.local
-DTSTAMP:20260612T000000
 DTSTART:20260614T132000
 DTEND:20260614T133000
 SUMMARY:💊 Prednisolone — Right eye (drop 2 of 4) — pre-op  (PINK c
@@ -92,6 +71,27 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⏰ Still due: 💊 Prednisolone — Right eye (drop 2 of 4) 
  — pre-op  (PINK cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-4@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260614T132500
+DTEND:20260614T133500
+SUMMARY:💊 Prolensa — Right eye — pre-op  (GREY cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prolensa — Right eye — pre-op  (GREY cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Right eye — pre-op  (GREY 
+ cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -209,26 +209,6 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-10@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260615T101000
-DTEND:20260615T102000
-SUMMARY:💊 Prolensa — Right eye  (GREY cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Right eye  (GREY cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Right eye  (GREY cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-11@tryan.local
-DTSTAMP:20260612T000000
 DTSTART:20260615T132000
 DTEND:20260615T133000
 SUMMARY:💊 Prednisolone — Right eye (drop 2 of 4)  (PINK cap)
@@ -244,6 +224,26 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⏰ Still due: 💊 Prednisolone — Right eye (drop 2 of 4) 
   (PINK cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-11@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260615T132500
+DTEND:20260615T133500
+SUMMARY:💊 Prolensa — Right eye  (GREY cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prolensa — Right eye  (GREY cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Right eye  (GREY cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -355,26 +355,6 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-17@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260616T101000
-DTEND:20260616T102000
-SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-18@tryan.local
-DTSTAMP:20260612T000000
 DTSTART:20260616T132000
 DTEND:20260616T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
@@ -390,6 +370,26 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 2 of 4) 
   (PINK cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-18@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260616T132500
+DTEND:20260616T133500
+SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -501,26 +501,6 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-24@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260617T101000
-DTEND:20260617T102000
-SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-25@tryan.local
-DTSTAMP:20260612T000000
 DTSTART:20260617T132000
 DTEND:20260617T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
@@ -536,6 +516,26 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 2 of 4) 
   (PINK cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-25@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260617T132500
+DTEND:20260617T133500
+SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -647,26 +647,6 @@ END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-31@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260618T101000
-DTEND:20260618T102000
-SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-32@tryan.local
-DTSTAMP:20260612T000000
 DTSTART:20260618T132000
 DTEND:20260618T133000
 SUMMARY:💊 Prednisolone — Both eyes (drop 2 of 4)  (PINK cap)
@@ -686,7 +666,48 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:eyedrop-32@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260618T132500
+DTEND:20260618T133500
+SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:eyedrop-33@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260618T160000
+DTEND:20260618T161000
+SUMMARY:💊 Dorzolamide — Left eye (drop 1 of 2)  (ORANGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Dorzolamide (ORANGE cap) at 4:00 PM.\nWait 3-5 min between dr
+ ops:\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 1 of 2)  (ORANGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 1 of 2)  (
+ ORANGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-34@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260618T164000
 DTEND:20260618T165000
@@ -707,7 +728,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-34@tryan.local
+UID:eyedrop-35@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260618T200000
 DTEND:20260618T201000
@@ -728,7 +749,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-35@tryan.local
+UID:eyedrop-36@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260618T200500
 DTEND:20260618T201500
@@ -749,69 +770,89 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-36@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260619T100000
-DTEND:20260619T101000
-SUMMARY:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 4)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 1 of 4) 
-  (PINK cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:eyedrop-37@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260619T100500
-DTEND:20260619T101500
-SUMMARY:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
+DTSTART:20260618T220000
+DTEND:20260618T221000
+SUMMARY:💊 Dorzolamide — Left eye (drop 2 of 2)  (ORANGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Dorzolamide (ORANGE cap) at 10:00 PM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 2 of 2)  (ORANGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 1 of 2) 
-  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 2 of 2)  (
+ ORANGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-38@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260619T101000
-DTEND:20260619T102000
-SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+DTSTART:20260619T100000
+DTEND:20260619T101000
+SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-39@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260619T100500
+DTEND:20260619T101500
+SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
+ rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 4)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-40@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260619T101000
+DTEND:20260619T102000
+SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:10 AM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-41@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T132000
 DTEND:20260619T133000
@@ -832,7 +873,27 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-40@tryan.local
+UID:eyedrop-42@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260619T132500
+DTEND:20260619T133500
+SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-43@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T164000
 DTEND:20260619T165000
@@ -853,111 +914,129 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-41@tryan.local
+UID:eyedrop-44@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T200000
 DTEND:20260619T201000
-SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
+SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
- ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
+DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 4 of 4) 
-  (PINK cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-42@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260619T200500
-DTEND:20260619T201500
-SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 2 of 2) 
-  (BEIGE cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-43@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260620T100000
-DTEND:20260620T101000
-SUMMARY:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 4)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 1 of 4) 
-  (PINK cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-44@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260620T100500
-DTEND:20260620T101500
-SUMMARY:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 2)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 1 of 2) 
-  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-45@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260620T101000
-DTEND:20260620T102000
-SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+DTSTART:20260619T200500
+DTEND:20260619T201500
+SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eyedrop-46@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260619T201000
+DTEND:20260619T202000
+SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:10 PM.\nWait 3-5 min between dr
+ ops:\n• LEFT eye (drop 2 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 2 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-47@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260620T100000
+DTEND:20260620T101000
+SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-48@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260620T100500
+DTEND:20260620T101500
+SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
+ rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 4)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-49@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260620T101000
+DTEND:20260620T102000
+SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:10 AM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-50@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T132000
 DTEND:20260620T133000
@@ -978,7 +1057,27 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-47@tryan.local
+UID:eyedrop-51@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260620T132500
+DTEND:20260620T133500
+SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-52@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T164000
 DTEND:20260620T165000
@@ -999,111 +1098,129 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-48@tryan.local
+UID:eyedrop-53@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T200000
 DTEND:20260620T201000
-SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
+SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
- ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
+DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 4 of 4) 
-  (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-49@tryan.local
+UID:eyedrop-54@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T200500
 DTEND:20260620T201500
-SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 2 of 2) 
-  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-50@tryan.local
+UID:eyedrop-55@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260620T201000
+DTEND:20260620T202000
+SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:10 PM.\nWait 3-5 min between dr
+ ops:\n• LEFT eye (drop 2 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 2 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-56@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T100000
 DTEND:20260621T101000
-SUMMARY:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
+SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 4)
+ ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
+DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 1 of 4) 
-  (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-51@tryan.local
+UID:eyedrop-57@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T100500
 DTEND:20260621T101500
-SUMMARY:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 2)
+ rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 1 of 2) 
-  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-52@tryan.local
+UID:eyedrop-58@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T101000
 DTEND:20260621T102000
-SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:10 AM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
+ (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-53@tryan.local
+UID:eyedrop-59@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T132000
 DTEND:20260621T133000
@@ -1124,7 +1241,27 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-54@tryan.local
+UID:eyedrop-60@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260621T132500
+DTEND:20260621T133500
+SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-61@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T164000
 DTEND:20260621T165000
@@ -1145,56 +1282,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-55@tryan.local
+UID:eyedrop-62@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T200000
 DTEND:20260621T201000
-SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
- ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 4 of 4) 
-  (PINK cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-56@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260621T200500
-DTEND:20260621T201500
-SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 2 of 2) 
-  (BEIGE cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-57@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260622T100000
-DTEND:20260622T101000
 SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 1 of 3)\n• LEFT eye (drop 1 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
@@ -1207,35 +1302,116 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-58@tryan.local
+UID:eyedrop-63@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260622T100500
-DTEND:20260622T101500
-SUMMARY:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
+DTSTART:20260621T200500
+DTEND:20260621T201500
+SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 1 of 2) 
-  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-59@tryan.local
+UID:eyedrop-64@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260621T201000
+DTEND:20260621T202000
+SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:10 PM.\nWait 3-5 min between dr
+ ops:\n• LEFT eye (drop 2 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 2 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-65@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260622T100000
+DTEND:20260622T101000
+SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 1 of 3)\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-66@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260622T100500
+DTEND:20260622T101500
+SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
+ rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 4)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-67@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T101000
 DTEND:20260622T102000
+SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:10 AM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-68@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260622T132000
+DTEND:20260622T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -1248,28 +1424,27 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-60@tryan.local
+UID:eyedrop-69@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260622T132000
-DTEND:20260622T133000
-SUMMARY:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
+DTSTART:20260622T132500
+DTEND:20260622T133500
+SUMMARY:💊 Prolensa — Left eye  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
- ps:\n• LEFT eye (drop 2 of 4)
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
+DESCRIPTION:💊 Prolensa — Left eye  (GREY cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Left eye (drop 2 of 4)  
- (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Left eye  (GREY cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-61@tryan.local
+UID:eyedrop-70@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T150000
 DTEND:20260622T151000
@@ -1290,7 +1465,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-62@tryan.local
+UID:eyedrop-71@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T164000
 DTEND:20260622T165000
@@ -1311,14 +1486,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-63@tryan.local
+UID:eyedrop-72@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T200000
 DTEND:20260622T201000
 SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
- ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 4 of 4)
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
@@ -1331,28 +1506,48 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-64@tryan.local
+UID:eyedrop-73@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T200500
 DTEND:20260622T201500
-SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 2 of 2) 
-  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-65@tryan.local
+UID:eyedrop-74@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260622T201000
+DTEND:20260622T202000
+SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:10 PM.\nWait 3-5 min between dr
+ ops:\n• LEFT eye (drop 2 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 2 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-75@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260623T100000
 DTEND:20260623T101000
@@ -1372,7 +1567,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-66@tryan.local
+UID:eyedrop-76@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260623T100500
 DTEND:20260623T101500
@@ -1393,14 +1588,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-67@tryan.local
+UID:eyedrop-77@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260623T101000
-DTEND:20260623T102000
+DTSTART:20260623T132000
+DTEND:20260623T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -1413,28 +1608,27 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-68@tryan.local
+UID:eyedrop-78@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260623T132000
-DTEND:20260623T133000
-SUMMARY:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
+DTSTART:20260623T132500
+DTEND:20260623T133500
+SUMMARY:💊 Prolensa — Left eye  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
- ps:\n• LEFT eye (drop 2 of 4)
+DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
+ n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
+DESCRIPTION:💊 Prolensa — Left eye  (GREY cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Left eye (drop 2 of 4)  
- (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Left eye  (GREY cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-69@tryan.local
+UID:eyedrop-79@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260623T150000
 DTEND:20260623T151000
@@ -1455,7 +1649,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-70@tryan.local
+UID:eyedrop-80@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260623T164000
 DTEND:20260623T165000
@@ -1476,7 +1670,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-71@tryan.local
+UID:eyedrop-81@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260623T200000
 DTEND:20260623T201000
@@ -1496,7 +1690,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-72@tryan.local
+UID:eyedrop-82@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260623T200500
 DTEND:20260623T201500
@@ -1517,7 +1711,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-73@tryan.local
+UID:eyedrop-83@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260624T100000
 DTEND:20260624T101000
@@ -1538,7 +1732,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-74@tryan.local
+UID:eyedrop-84@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260624T100500
 DTEND:20260624T101500
@@ -1559,14 +1753,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-75@tryan.local
+UID:eyedrop-85@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260624T101000
-DTEND:20260624T102000
+DTSTART:20260624T132000
+DTEND:20260624T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -1579,7 +1773,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-76@tryan.local
+UID:eyedrop-86@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260624T150000
 DTEND:20260624T151000
@@ -1600,7 +1794,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-77@tryan.local
+UID:eyedrop-87@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260624T200000
 DTEND:20260624T201000
@@ -1621,7 +1815,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-78@tryan.local
+UID:eyedrop-88@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260624T200500
 DTEND:20260624T201500
@@ -1642,7 +1836,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-79@tryan.local
+UID:eyedrop-89@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260625T100000
 DTEND:20260625T101000
@@ -1663,7 +1857,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-80@tryan.local
+UID:eyedrop-90@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260625T100500
 DTEND:20260625T101500
@@ -1684,14 +1878,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-81@tryan.local
+UID:eyedrop-91@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260625T101000
-DTEND:20260625T102000
+DTSTART:20260625T132000
+DTEND:20260625T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -1704,7 +1898,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-82@tryan.local
+UID:eyedrop-92@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260625T150000
 DTEND:20260625T151000
@@ -1725,7 +1919,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-83@tryan.local
+UID:eyedrop-93@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260625T200000
 DTEND:20260625T201000
@@ -1746,7 +1940,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-84@tryan.local
+UID:eyedrop-94@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260625T200500
 DTEND:20260625T201500
@@ -1767,7 +1961,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-85@tryan.local
+UID:eyedrop-95@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260626T100000
 DTEND:20260626T101000
@@ -1788,7 +1982,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-86@tryan.local
+UID:eyedrop-96@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260626T100500
 DTEND:20260626T101500
@@ -1809,14 +2003,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-87@tryan.local
+UID:eyedrop-97@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260626T101000
-DTEND:20260626T102000
+DTSTART:20260626T132000
+DTEND:20260626T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -1829,7 +2023,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-88@tryan.local
+UID:eyedrop-98@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260626T150000
 DTEND:20260626T151000
@@ -1850,7 +2044,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-89@tryan.local
+UID:eyedrop-99@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260626T200000
 DTEND:20260626T201000
@@ -1871,7 +2065,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-90@tryan.local
+UID:eyedrop-100@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260626T200500
 DTEND:20260626T201500
@@ -1892,7 +2086,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-91@tryan.local
+UID:eyedrop-101@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260627T100000
 DTEND:20260627T101000
@@ -1913,7 +2107,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-92@tryan.local
+UID:eyedrop-102@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260627T100500
 DTEND:20260627T101500
@@ -1934,14 +2128,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-93@tryan.local
+UID:eyedrop-103@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260627T101000
-DTEND:20260627T102000
+DTSTART:20260627T132000
+DTEND:20260627T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -1954,7 +2148,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-94@tryan.local
+UID:eyedrop-104@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260627T150000
 DTEND:20260627T151000
@@ -1975,7 +2169,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-95@tryan.local
+UID:eyedrop-105@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260627T200000
 DTEND:20260627T201000
@@ -1996,7 +2190,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-96@tryan.local
+UID:eyedrop-106@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260627T200500
 DTEND:20260627T201500
@@ -2017,7 +2211,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-97@tryan.local
+UID:eyedrop-107@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260628T100000
 DTEND:20260628T101000
@@ -2038,7 +2232,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-98@tryan.local
+UID:eyedrop-108@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260628T100500
 DTEND:20260628T101500
@@ -2059,14 +2253,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-99@tryan.local
+UID:eyedrop-109@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260628T101000
-DTEND:20260628T102000
+DTSTART:20260628T132000
+DTEND:20260628T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2079,7 +2273,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-100@tryan.local
+UID:eyedrop-110@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260628T150000
 DTEND:20260628T151000
@@ -2100,7 +2294,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-101@tryan.local
+UID:eyedrop-111@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260628T200000
 DTEND:20260628T201000
@@ -2121,7 +2315,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-102@tryan.local
+UID:eyedrop-112@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260628T200500
 DTEND:20260628T201500
@@ -2142,7 +2336,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-103@tryan.local
+UID:eyedrop-113@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260629T100000
 DTEND:20260629T101000
@@ -2162,14 +2356,35 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-104@tryan.local
+UID:eyedrop-114@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260629T100500
 DTEND:20260629T101500
+SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-115@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260629T132000
+DTEND:20260629T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2182,27 +2397,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-105@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260629T101000
-DTEND:20260629T102000
-SUMMARY:💊 Prolensa — Left eye  (GREY cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• LEFT eye
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Left eye  (GREY cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Left eye  (GREY cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-106@tryan.local
+UID:eyedrop-116@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260629T150000
 DTEND:20260629T151000
@@ -2223,7 +2418,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-107@tryan.local
+UID:eyedrop-117@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260629T200000
 DTEND:20260629T201000
@@ -2243,7 +2438,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-108@tryan.local
+UID:eyedrop-118@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260629T200500
 DTEND:20260629T201500
@@ -2264,7 +2459,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-109@tryan.local
+UID:eyedrop-119@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260630T100000
 DTEND:20260630T101000
@@ -2284,14 +2479,35 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-110@tryan.local
+UID:eyedrop-120@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260630T100500
 DTEND:20260630T101500
+SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
+ (BEIGE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-121@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260630T132000
+DTEND:20260630T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2304,27 +2520,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-111@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260630T101000
-DTEND:20260630T102000
-SUMMARY:💊 Prolensa — Left eye  (GREY cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:10 AM.\nWait 3-5 min between drops:
- \n• LEFT eye
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Left eye  (GREY cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Left eye  (GREY cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:eyedrop-112@tryan.local
+UID:eyedrop-122@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260630T150000
 DTEND:20260630T151000
@@ -2345,7 +2541,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-113@tryan.local
+UID:eyedrop-123@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260630T200000
 DTEND:20260630T201000
@@ -2365,7 +2561,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-114@tryan.local
+UID:eyedrop-124@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260630T200500
 DTEND:20260630T201500
@@ -2386,7 +2582,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-115@tryan.local
+UID:eyedrop-125@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260701T100000
 DTEND:20260701T101000
@@ -2407,14 +2603,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-116@tryan.local
+UID:eyedrop-126@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260701T100500
-DTEND:20260701T101500
+DTSTART:20260701T132000
+DTEND:20260701T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2427,7 +2623,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-117@tryan.local
+UID:eyedrop-127@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260701T200000
 DTEND:20260701T201000
@@ -2448,7 +2644,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-118@tryan.local
+UID:eyedrop-128@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260702T100000
 DTEND:20260702T101000
@@ -2469,14 +2665,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-119@tryan.local
+UID:eyedrop-129@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260702T100500
-DTEND:20260702T101500
+DTSTART:20260702T132000
+DTEND:20260702T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2489,7 +2685,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-120@tryan.local
+UID:eyedrop-130@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260702T200000
 DTEND:20260702T201000
@@ -2510,7 +2706,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-121@tryan.local
+UID:eyedrop-131@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260703T100000
 DTEND:20260703T101000
@@ -2531,14 +2727,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-122@tryan.local
+UID:eyedrop-132@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260703T100500
-DTEND:20260703T101500
+DTSTART:20260703T132000
+DTEND:20260703T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2551,7 +2747,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-123@tryan.local
+UID:eyedrop-133@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260703T200000
 DTEND:20260703T201000
@@ -2572,7 +2768,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-124@tryan.local
+UID:eyedrop-134@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260704T100000
 DTEND:20260704T101000
@@ -2593,14 +2789,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-125@tryan.local
+UID:eyedrop-135@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260704T100500
-DTEND:20260704T101500
+DTSTART:20260704T132000
+DTEND:20260704T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2613,7 +2809,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-126@tryan.local
+UID:eyedrop-136@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260704T200000
 DTEND:20260704T201000
@@ -2634,7 +2830,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-127@tryan.local
+UID:eyedrop-137@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260705T100000
 DTEND:20260705T101000
@@ -2655,14 +2851,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-128@tryan.local
+UID:eyedrop-138@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260705T100500
-DTEND:20260705T101500
+DTSTART:20260705T132000
+DTEND:20260705T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2675,7 +2871,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-129@tryan.local
+UID:eyedrop-139@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260705T200000
 DTEND:20260705T201000
@@ -2696,7 +2892,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-130@tryan.local
+UID:eyedrop-140@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260706T100000
 DTEND:20260706T101000
@@ -2716,14 +2912,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-131@tryan.local
+UID:eyedrop-141@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260706T100500
-DTEND:20260706T101500
+DTSTART:20260706T132000
+DTEND:20260706T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2736,7 +2932,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-132@tryan.local
+UID:eyedrop-142@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260706T200000
 DTEND:20260706T201000
@@ -2757,7 +2953,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-133@tryan.local
+UID:eyedrop-143@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260707T100000
 DTEND:20260707T101000
@@ -2777,14 +2973,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-134@tryan.local
+UID:eyedrop-144@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260707T100500
-DTEND:20260707T101500
+DTSTART:20260707T132000
+DTEND:20260707T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2797,7 +2993,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-135@tryan.local
+UID:eyedrop-145@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260707T200000
 DTEND:20260707T201000
@@ -2818,7 +3014,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-136@tryan.local
+UID:eyedrop-146@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260708T100000
 DTEND:20260708T101000
@@ -2838,14 +3034,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-137@tryan.local
+UID:eyedrop-147@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260708T100500
-DTEND:20260708T101500
+DTSTART:20260708T132000
+DTEND:20260708T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2858,7 +3054,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-138@tryan.local
+UID:eyedrop-148@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260709T100000
 DTEND:20260709T101000
@@ -2878,14 +3074,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-139@tryan.local
+UID:eyedrop-149@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260709T100500
-DTEND:20260709T101500
+DTSTART:20260709T132000
+DTEND:20260709T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2898,7 +3094,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-140@tryan.local
+UID:eyedrop-150@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260710T100000
 DTEND:20260710T101000
@@ -2918,14 +3114,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-141@tryan.local
+UID:eyedrop-151@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260710T100500
-DTEND:20260710T101500
+DTSTART:20260710T132000
+DTEND:20260710T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2938,7 +3134,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-142@tryan.local
+UID:eyedrop-152@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260711T100000
 DTEND:20260711T101000
@@ -2958,14 +3154,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-143@tryan.local
+UID:eyedrop-153@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260711T100500
-DTEND:20260711T101500
+DTSTART:20260711T132000
+DTEND:20260711T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -2978,7 +3174,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-144@tryan.local
+UID:eyedrop-154@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260712T100000
 DTEND:20260712T101000
@@ -2998,14 +3194,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-145@tryan.local
+UID:eyedrop-155@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260712T100500
-DTEND:20260712T101500
+DTSTART:20260712T132000
+DTEND:20260712T133000
 SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• RIGHT eye\n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
@@ -3018,7 +3214,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-146@tryan.local
+UID:eyedrop-156@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260713T100000
 DTEND:20260713T101000
@@ -3038,14 +3234,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-147@tryan.local
+UID:eyedrop-157@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260713T100500
-DTEND:20260713T101500
+DTSTART:20260713T132000
+DTEND:20260713T133000
 SUMMARY:💊 Prolensa — Left eye  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Left eye  (GREY cap)
@@ -3058,7 +3254,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-148@tryan.local
+UID:eyedrop-158@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260714T100000
 DTEND:20260714T101000
@@ -3078,14 +3274,14 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-149@tryan.local
+UID:eyedrop-159@tryan.local
 DTSTAMP:20260612T000000
-DTSTART:20260714T100500
-DTEND:20260714T101500
+DTSTART:20260714T132000
+DTEND:20260714T133000
 SUMMARY:💊 Prolensa — Left eye  (GREY cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 10:05 AM.\nWait 3-5 min between drops:
- \n• LEFT eye
+DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
+ n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prolensa — Left eye  (GREY cap)
@@ -3098,7 +3294,7 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyesurg-R-150@tryan.local
+UID:eyesurg-R-160@tryan.local
 DTSTAMP:20260612T000000
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
@@ -3110,7 +3306,7 @@ DESCRIPTION:Pre-op: nothing to eat/drink 8 hrs before\; arrange a driver
  ip of water.
 END:VEVENT
 BEGIN:VEVENT
-UID:eyesurg-L-151@tryan.local
+UID:eyesurg-L-161@tryan.local
 DTSTAMP:20260612T000000
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
