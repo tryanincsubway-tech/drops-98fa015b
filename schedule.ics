@@ -690,19 +690,19 @@ UID:eyedrop-33@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260618T160000
 DTEND:20260618T161000
-SUMMARY:💊 Dorzolamide — Left eye (drop 1 of 2)  (ORANGE cap)
+SUMMARY:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Dorzolamide (ORANGE cap) at 4:00 PM.\nWait 3-5 min between dr
- ops:\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 4:00 PM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Dorzolamide — Left eye (drop 1 of 2)  (ORANGE cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 1 of 2)  (
- ORANGE cap)
+ DK BLUE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -774,19 +774,19 @@ UID:eyedrop-37@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260618T220000
 DTEND:20260618T221000
-SUMMARY:💊 Dorzolamide — Left eye (drop 2 of 2)  (ORANGE cap)
+SUMMARY:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Dorzolamide (ORANGE cap) at 10:00 PM.\nWait 3-5 min between d
- rops:\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 10:00 PM.\nWait 3-5 min between 
+ drops:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Dorzolamide — Left eye (drop 2 of 2)  (ORANGE cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 2 of 2)  (
- ORANGE cap)
+ DK BLUE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -795,18 +795,19 @@ UID:eyedrop-38@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T100000
 DTEND:20260619T101000
-SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
+SUMMARY:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 10:00 AM.\nWait 3-5 min between 
+ drops:\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 1 of 2)  (
+ DK BLUE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -815,18 +816,19 @@ UID:eyedrop-39@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T100500
 DTEND:20260619T101500
-SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+SUMMARY:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 10:05 AM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 1 of 4) 
+  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -835,19 +837,19 @@ UID:eyedrop-40@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T101000
 DTEND:20260619T102000
-SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:10 AM.\nWait 3-5 min between d
- rops:\n• LEFT eye (drop 1 of 2)
+ rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
- (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 1 of 2) 
+  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -918,18 +920,19 @@ UID:eyedrop-44@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T200000
 DTEND:20260619T201000
-SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
+SUMMARY:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
- ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 8:00 PM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 2 of 2)  (
+ DK BLUE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -938,18 +941,19 @@ UID:eyedrop-45@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T200500
 DTEND:20260619T201500
-SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:05 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 4 of 4) 
+  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -958,19 +962,19 @@ UID:eyedrop-46@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260619T201000
 DTEND:20260619T202000
-SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:10 PM.\nWait 3-5 min between dr
- ops:\n• LEFT eye (drop 2 of 2)
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 2 of 2)  
- (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 2 of 2) 
+  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -979,18 +983,19 @@ UID:eyedrop-47@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T100000
 DTEND:20260620T101000
-SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
+SUMMARY:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 10:00 AM.\nWait 3-5 min between 
+ drops:\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 1 of 2)  (
+ DK BLUE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -999,18 +1004,19 @@ UID:eyedrop-48@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T100500
 DTEND:20260620T101500
-SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+SUMMARY:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 10:05 AM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 1 of 4) 
+  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1019,19 +1025,19 @@ UID:eyedrop-49@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T101000
 DTEND:20260620T102000
-SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:10 AM.\nWait 3-5 min between d
- rops:\n• LEFT eye (drop 1 of 2)
+ rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
- (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 1 of 2) 
+  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1102,18 +1108,19 @@ UID:eyedrop-53@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T200000
 DTEND:20260620T201000
-SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
+SUMMARY:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
- ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 8:00 PM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 2 of 2)  (
+ DK BLUE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1122,18 +1129,19 @@ UID:eyedrop-54@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T200500
 DTEND:20260620T201500
-SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:05 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 4 of 4) 
+  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1142,19 +1150,19 @@ UID:eyedrop-55@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260620T201000
 DTEND:20260620T202000
-SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:10 PM.\nWait 3-5 min between dr
- ops:\n• LEFT eye (drop 2 of 2)
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 2 of 2)  
- (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 2 of 2) 
+  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1163,18 +1171,19 @@ UID:eyedrop-56@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T100000
 DTEND:20260621T101000
-SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
+SUMMARY:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 10:00 AM.\nWait 3-5 min between 
+ drops:\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 1 of 2)  (
+ DK BLUE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1183,18 +1192,19 @@ UID:eyedrop-57@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T100500
 DTEND:20260621T101500
-SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+SUMMARY:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 10:05 AM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 1 of 4)\n• LEFT eye (drop 1 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:💊 Prednisolone — Both eyes (drop 1 of 4)  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 1 of 4) 
+  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1203,19 +1213,19 @@ UID:eyedrop-58@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T101000
 DTEND:20260621T102000
-SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:10 AM.\nWait 3-5 min between d
- rops:\n• LEFT eye (drop 1 of 2)
+ rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
- (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 1 of 2) 
+  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1286,18 +1296,19 @@ UID:eyedrop-62@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T200000
 DTEND:20260621T201000
-SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
+SUMMARY:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
- ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 8:00 PM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes  (PINK cap)
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 2 of 2)  (
+ DK BLUE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1306,18 +1317,19 @@ UID:eyedrop-63@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T200500
 DTEND:20260621T201500
-SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+SUMMARY:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 4 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 8:05 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 4 of 4)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:💊 Prednisolone — Both eyes (drop 4 of 4)  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Both eyes (drop 4 of 4) 
+  (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1326,19 +1338,19 @@ UID:eyedrop-64@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260621T201000
 DTEND:20260621T202000
-SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:10 PM.\nWait 3-5 min between dr
- ops:\n• LEFT eye (drop 2 of 2)
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 2 of 2)  
- (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 2 of 2) 
+  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1347,10 +1359,31 @@ UID:eyedrop-65@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T100000
 DTEND:20260622T101000
+SUMMARY:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 10:00 AM.\nWait 3-5 min between 
+ drops:\n• LEFT eye (drop 1 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 1 of 2)  (DK BLUE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 1 of 2)  (
+ DK BLUE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-66@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260622T100500
+DTEND:20260622T101500
 SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 10:00 AM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 1 of 3)\n• LEFT eye (drop 1 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 10:05 AM.\nWait 3-5 min between dr
+ ops:\n• RIGHT eye (drop 1 of 3)\n• LEFT eye (drop 1 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
@@ -1363,43 +1396,23 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-66@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260622T100500
-DTEND:20260622T101500
-SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:05 AM.\nWait 3-5 min between d
- rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 4)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:eyedrop-67@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T101000
 DTEND:20260622T102000
-SUMMARY:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 10:10 AM.\nWait 3-5 min between d
- rops:\n• LEFT eye (drop 1 of 2)
+ rops:\n• RIGHT eye (drop 1 of 2)\n• LEFT eye (drop 1 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Left eye (drop 1 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 1 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 1 of 2)  
- (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 1 of 2) 
+  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1408,18 +1421,19 @@ UID:eyedrop-68@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T132000
 DTEND:20260622T133000
-SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+SUMMARY:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
- n• RIGHT eye\n• LEFT eye (drop 2 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
+ ps:\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Left eye (drop 2 of 4)  
+ (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1428,18 +1442,18 @@ UID:eyedrop-69@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T132500
 DTEND:20260622T133500
-SUMMARY:💊 Prolensa — Left eye  (GREY cap)
+SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
- n• LEFT eye
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Left eye  (GREY cap)
+DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Left eye  (GREY cap)
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1490,10 +1504,31 @@ UID:eyedrop-72@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T200000
 DTEND:20260622T201000
+SUMMARY:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
+CATEGORIES:Eye Drop Schedule
+DESCRIPTION:Dorzolamide (DK BLUE cap) at 8:00 PM.\nWait 3-5 min between d
+ rops:\n• LEFT eye (drop 2 of 2)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💊 Dorzolamide — Left eye (drop 2 of 2)  (DK BLUE cap)
+TRIGGER:-PT0M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⏰ Still due: 💊 Dorzolamide — Left eye (drop 2 of 2)  (
+ DK BLUE cap)
+TRIGGER:PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eyedrop-73@tryan.local
+DTSTAMP:20260612T000000
+DTSTART:20260622T200500
+DTEND:20260622T201500
 SUMMARY:💊 Prednisolone — Both eyes  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prednisolone (PINK cap) at 8:00 PM.\nWait 3-5 min between dro
- ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 2 of 2)
+DESCRIPTION:Prednisolone (PINK cap) at 8:05 PM.\nWait 3-5 min between dro
+ ps:\n• RIGHT eye (drop 3 of 3)\n• LEFT eye (drop 4 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💊 Prednisolone — Both eyes  (PINK cap)
@@ -1506,43 +1541,23 @@ TRIGGER:PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:eyedrop-73@tryan.local
-DTSTAMP:20260612T000000
-DTSTART:20260622T200500
-DTEND:20260622T201500
-SUMMARY:💊 Moxifloxacin — Both eyes  (BEIGE cap)
-CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:05 PM.\nWait 3-5 min between dr
- ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 4 of 4)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Both eyes  (BEIGE cap)
-TRIGGER:-PT0M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes  (BEIGE cap)
-TRIGGER:PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:eyedrop-74@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260622T201000
 DTEND:20260622T202000
-SUMMARY:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+SUMMARY:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Moxifloxacin (BEIGE cap) at 8:10 PM.\nWait 3-5 min between dr
- ops:\n• LEFT eye (drop 2 of 2)
+ ops:\n• RIGHT eye (drop 2 of 2)\n• LEFT eye (drop 2 of 2)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Moxifloxacin — Left eye (drop 2 of 2)  (BEIGE cap)
+DESCRIPTION:💊 Moxifloxacin — Both eyes (drop 2 of 2)  (BEIGE cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Left eye (drop 2 of 2)  
- (BEIGE cap)
+DESCRIPTION:⏰ Still due: 💊 Moxifloxacin — Both eyes (drop 2 of 2) 
+  (BEIGE cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1592,18 +1607,19 @@ UID:eyedrop-77@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260623T132000
 DTEND:20260623T133000
-SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
+SUMMARY:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
 CATEGORIES:Eye Drop Schedule
-DESCRIPTION:Prolensa (GREY cap) at 1:20 PM.\nWait 3-5 min between drops:\
- n• RIGHT eye\n• LEFT eye (drop 2 of 4)
+DESCRIPTION:Prednisolone (PINK cap) at 1:20 PM.\nWait 3-5 min between dro
+ ps:\n• LEFT eye (drop 2 of 4)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:💊 Prednisolone — Left eye (drop 2 of 4)  (PINK cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
+DESCRIPTION:⏰ Still due: 💊 Prednisolone — Left eye (drop 2 of 4)  
+ (PINK cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
@@ -1612,18 +1628,18 @@ UID:eyedrop-78@tryan.local
 DTSTAMP:20260612T000000
 DTSTART:20260623T132500
 DTEND:20260623T133500
-SUMMARY:💊 Prolensa — Left eye  (GREY cap)
+SUMMARY:💊 Prolensa — Both eyes  (GREY cap)
 CATEGORIES:Eye Drop Schedule
 DESCRIPTION:Prolensa (GREY cap) at 1:25 PM.\nWait 3-5 min between drops:\
- n• LEFT eye
+ n• RIGHT eye\n• LEFT eye
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:💊 Prolensa — Left eye  (GREY cap)
+DESCRIPTION:💊 Prolensa — Both eyes  (GREY cap)
 TRIGGER:-PT0M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏰ Still due: 💊 Prolensa — Left eye  (GREY cap)
+DESCRIPTION:⏰ Still due: 💊 Prolensa — Both eyes  (GREY cap)
 TRIGGER:PT15M
 END:VALARM
 END:VEVENT
