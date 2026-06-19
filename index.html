@@ -162,7 +162,7 @@ font-family:-apple-system,Arial,sans-serif">
 
 <div class="foot">Times are suggested spacing (10 AM–10 PM), not the doctor's exact times.
 Wait 3–5 min between drops. Shake the pink steroid. "Day 1" = the surgery day itself.<br>
-Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.18b</span></div>
+Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.18c</span></div>
 </div>
 
 <div id="report"></div>
@@ -181,7 +181,7 @@ document.getElementById('icsbtn').href = ICS;
 document.getElementById('surgline').textContent = SURG;
 document.getElementById('hint').innerHTML =
   "On iPhone: <b>Share → Add to Home Screen</b> to use like an app. " +
-  "<b>Press &amp; hold a drop 1 second</b> to check it off (a tap or scroll won't change it). " +
+  "<b>Tap a drop</b> to check it off, then <b>Press OK</b> to confirm the dose. " +
   "<b>🔔 Alerts</b> ding while open; <b>➕ Calendar</b> dings even when closed; <b>🖨 Report</b> prints/emails the 4-week sheet.";
 
 function todayISO(){const n=new Date();return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0');}
@@ -290,7 +290,7 @@ function render(){
       (showTimer?'<div class="dosetimer" id="dosetimer" data-sched="'+c.eff+'"></div>':'')+'<div class="eyes">';
     var surg=!!day.surgery;       // skip option only offered on surgery days
     c.md.eyes.forEach(function(ey){var tk=get(ey.id);var skipped=(tk==='SKIP');var late=tk&&!skipped&&isLate(tk,c.eff);
-      var state= skipped ? '⊘ Skipped' : (tk ? ('😊 '+fmtClock(tk)+(late?' <span class="latetag">⏰ late</span>':'')) : 'press &amp; hold 1s');
+      var state= skipped ? '⊘ Skipped' : (tk ? ('😊 '+fmtClock(tk)+(late?' <span class="latetag">⏰ late</span>':'')) : 'tap when done');
       var cls= (tk&&!skipped) ? ' done' : (skipped ? ' skipped' : '');
       var skipHTML= (surg && !(tk&&!skipped)) ? ('<div class="skipbtn'+(skipped?' on':'')+'" data-id="'+ey.id+'">'+(skipped?'↩ undo':'⊘ skip')+'</div>') : '';
       h+='<div class="eyebtn '+ey.eye+cls+'" data-id="'+ey.id+'" data-slot="'+c.eff+'">'+
@@ -328,8 +328,10 @@ function render(){
   document.getElementById('dprogtxt').textContent=doneC+' of '+total;
   document.getElementById('dprogfill').style.width=(total?Math.round(doneC/total*100):0)+'%';
 
-  // press & hold 2s to mark/undo (a quick tap or a scroll won't change anything)
-  document.querySelectorAll('.eyebtn').forEach(bindHold);
+  // simple TAP to mark/undo an eye (reliable); Press OK is the deliberate confirm step
+  document.querySelectorAll('.eyebtn').forEach(function(b){
+    b.onclick=function(e){ if(e.target.closest('.tedit')||e.target.closest('.skipbtn'))return; doEyeAction(b); };
+  });
   document.querySelectorAll('.skipbtn').forEach(function(s){s.addEventListener('click',function(e){e.stopPropagation();toggleSkip(s.dataset.id);});});
   document.querySelectorAll('.okbtn').forEach(function(o){o.addEventListener('click',function(e){e.stopPropagation();pressOK(o.dataset.card);});});
   // 🕑 = set/correct the exact time (native time wheel)
