@@ -162,7 +162,7 @@ font-family:-apple-system,Arial,sans-serif">
 
 <div class="foot">Times are suggested spacing (10 AM–10 PM), not the doctor's exact times.
 Wait 3–5 min between drops. Shake the pink steroid. "Day 1" = the surgery day itself.<br>
-Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.19b</span></div>
+Transcription aid — confirm anything unclear with your eye surgeon's office. <span style="opacity:.55">· build 6.19c</span></div>
 </div>
 
 <div id="report"></div>
@@ -176,6 +176,11 @@ const KEY = "eyedrops:v4:";
 const LATE_GRACE = 15;            // minutes past slot time = "late"
 let cur = 0, alertsOn = false, audioCtx = null, lastNag = {};
 var WAIT_MS = 5*60*1000, doseInt = null, dingedReady = false;
+// keep the screen awake while a countdown is running (released otherwise to save battery)
+var wakeLock = null;
+async function reqWake(){ try{ if(('wakeLock' in navigator) && document.visibilityState==='visible' && !wakeLock){ wakeLock=await navigator.wakeLock.request('screen'); wakeLock.addEventListener('release',function(){wakeLock=null;}); } }catch(e){ wakeLock=null; } }
+function relWake(){ try{ if(wakeLock){ wakeLock.release(); wakeLock=null; } }catch(e){ wakeLock=null; } }
+document.addEventListener('visibilitychange',function(){ if(document.visibilityState==='visible'){ updateDoseTimer(); } else { wakeLock=null; } });
 
 document.getElementById('icsbtn').href = ICS;
 document.getElementById('surgline').textContent = SURG;
@@ -215,7 +220,7 @@ function doEyeAction(b){
   }
   render(); checkNag(true);
 }
-function pressOK(cardKey){ localStorage.setItem(KEY+'ok:'+cardKey,'1'); localStorage.setItem(KEY+'lastdose',(new Date()).getTime()); startDoseTimer(); render(); checkNag(true); }
+function pressOK(cardKey){ localStorage.setItem(KEY+'ok:'+cardKey,'1'); localStorage.setItem(KEY+'lastdose',(new Date()).getTime()); reqWake(); startDoseTimer(); render(); checkNag(true); }
 function toggleSkip(id){ if(get(id)==='SKIP') setv(id,''); else setv(id,'SKIP'); render(); checkNag(true); }
 function bindHold(b){
   var timer=null, sy=0;
@@ -238,15 +243,16 @@ function fmtDur(ms){var s=Math.round(ms/1000);var h=Math.floor(s/3600);var m=Mat
 function updateDoseTimer(){
   // Counts down to the NEXT drop's scheduled time (≈5 min for staggered ones, hours for the next slot),
   // but never less than 5 min after the last drop you took (the 3–5 min wait rule).
-  var el=document.getElementById('dosetimer'); if(!el)return;
-  var sched=el.dataset.sched; if(!sched){el.className='dosetimer';return;}
+  var el=document.getElementById('dosetimer'); if(!el){ relWake(); return; }
+  var sched=el.dataset.sched; if(!sched){el.className='dosetimer'; relWake(); return;}
   var p=sched.split(':'); var t=new Date(); t.setHours(+p[0],+p[1],0,0); var target=t.getTime();
   var ld=lastDose(); if(ld && ld+WAIT_MS>target) target=ld+WAIT_MS;
   var rem=target-(new Date()).getTime();
   if(rem>0){ el.className='dosetimer wait';
     el.innerHTML='⏳ Next drop in<span class="big">'+fmtDur(rem)+'</span>';
+    if(rem<=20*60000) reqWake(); else relWake();   // keep screen on for the last 20 min of the wait
   }else{ el.className='dosetimer ready';
-    el.innerHTML='✅ Time for your next drop<span class="big">do it now</span>';
+    el.innerHTML='✅ Time for your next drop<span class="big">do it now</span>'; relWake();
     if(!dingedReady){dingedReady=true; if(alertsOn){ding();notify('Time for your next eye drop');}}
   }
 }
